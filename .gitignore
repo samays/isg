@@ -1,0 +1,87 @@
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build outputs
+bin/
+obj/
+out/
+
+# NuGet packages
+packages/
+**/packages.lock.json
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Logs and databases
+*.log
+*.sqlite
+
+# IDE-specific files
+.idea/
+.vscode/
+*.code-workspace
+
+# macOS specific files
+.DS_Store
+
+# Windows specific files
+Thumbs.db
+
+# Backup files
+*~
+*.bak
+
+# Logs and databases
+*.log
+*.sqlite
+
+# IDE-specific files
+.idea/
+.vscode/
+*.code-workspace
+
+# macOS specific files
+.DS_Store
+
+# Windows specific files
+Thumbs.db
+
+# Backup files
+*~
+*.bak
+
+# Docker
+docker-compose.override.yml
+.dockerignore
+**/Dockerfile*
+**/docker-compose*
+
+# Test results
+TestResults/
+coverage/
+
+
+# EF Core Migrations
+"publish/" 
+
+# Build and Publish directories - all publish folders in any directory
+**/publish/
+publish/
+**/publish-*/
+**/bin/
+**/obj/
+*.pdb
+*.dll
+*.exe
+
+# Upload dosyaları
+ISG/ISG.Koordinator/wwwroot/uploads/**
+
+**/appsettings.Production.json
